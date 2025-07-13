@@ -6,7 +6,7 @@ import { useCart } from '../context/CartContext';
 
 const SingleProduct: React.FC = () => {
   const { id } = useParams<{ id: string }>();
-  const { addItem, getItemQuantity, updateQuantity } = useCart();
+  const { addItem, getItemQuantity } = useCart();
   const [selectedImage, setSelectedImage] = useState(0);
   const [quantity, setQuantity] = useState(1);
 
