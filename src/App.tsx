@@ -1,4 +1,3 @@
-import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { CartProvider } from './context/CartContext';
 import Header from './components/Header';
@@ -7,8 +6,8 @@ import Home from './pages/Home';
 import Products from './pages/Products';
 import SingleProduct from './pages/SingleProduct';
 import Cart from './pages/Cart';
-import About from './pages/About';
-import Contact from './pages/Contact';
+// import About from './pages/About';
+// import Contact from './pages/Contact';
 
 function App() {
   return (
